@@ -1,0 +1,380 @@
+2021-05-30T16:47:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(38, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:48:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_a...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(39, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:49:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_builder...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(40, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:50:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(69, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:50:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(73, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:53:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(75, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:53:01+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(82, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:54:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(83, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:54:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(84, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:56:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(85, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:56:34+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(86, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:59:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(87, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T16:59:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(88, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:00:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(89, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:00:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(90, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:02:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(91, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:02:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(92, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:04:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(93, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:08:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_email_s...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(94, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:30:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(96, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:31:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(97, 'WP Cron')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
+2021-05-30T17:32:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php:292
+Stack trace:
+#0 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 D:\xampp\htdocs\divisite\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#2 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\actions\ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(98, 'Async Request')
+#5 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 D:\xampp\htdocs\divisite\wp-content\plugins\woocommerce\includes\libraries\wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 D:\xampp\htdocs\divisite\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#14 D:\xampp\htdocs\divisite\wp-admin\admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown in D:\xampp\htdocs\divisite\wp-includes\class-wp-hook.php on line 292
+
